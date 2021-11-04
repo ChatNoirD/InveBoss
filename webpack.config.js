@@ -18,6 +18,7 @@ module.exports = {
     open: true,
     compress: true,
     port: 3000,
+    hot: true,
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -33,7 +34,14 @@ module.exports = {
     rules: [
       {
         test: /\.css$/i,
-        use: [MiniCssExtractPlugin.loader, "css-loader"],
+        use: [MiniCssExtractPlugin.loader, 
+          {
+            options: {
+              hrm: true,
+            },
+          },
+        "css-loader"
+        ],
       },
       {
         test: /\.s[ac]ss$/i,
