@@ -5,4 +5,62 @@
 /*!*****************************************************************************************************************!*\
   !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./styles/main.scss (1) ***!
   \*****************************************************************************************************************/
+body {
+  margin: 0 auto;
+}
 
+header {
+  margin: 0 auto;
+}
+
+.header_container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.header_links {
+  width: 80%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_links_mainlinks_list {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.header_link a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #181C2F;
+}
+
+.header_vrtLine {
+  width: 1px;
+  height: 60px;
+  background-color: #67DEBC;
+}
+
+.header_specLinks {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0;
+}

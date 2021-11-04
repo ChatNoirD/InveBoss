@@ -1,4 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 
+@mixin text-header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #181C2F;
+}
+@mixin flex-row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin flex-column {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin center-size {
+    width: 1280px;
+    margin: 0 auto;
+}
 
-
+body {
+    margin: 0 auto;
+}
+header {
+    margin: 0 auto;
+}
+.header_container {
+    @include flex-row();
+    @include center-size();
+}
+.header_links {
+    width: 80%;
+    @include flex-row();
+}
+.header_links_mainlinks_list {
+    width: 100%;
+    @include flex-row();
+    list-style-type: none;
+    padding-left: 0;
+}
+.header_link {
+    a {
+        @include text-header();
+    }
+}
+.header_vrtLine {
+    width: 1px;
+    height: 60px;
+    background-color: #67DEBC;
+}
+.header_specLinks {
+    @include flex-row();
+    list-style-type: none;
+    padding-left: 0;
+}
