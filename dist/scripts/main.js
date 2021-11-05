@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
   \********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/html-loader/dist/runtime/getUrl.js */ \"../node_modules/html-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./public/logo.png */ \"./public/logo.png\"), __webpack_require__.b);\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);\nvar code = \"<!DOCTYPE html>\\r\\n<html lang=\\\"ru\\\">\\r\\n    <head>\\r\\n        <meta charset=\\\"UTF-8\\\">\\r\\n        <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=edge\\\">\\r\\n        <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\r\\n        <title>Inveboss</title>\\r\\n    </head>\\r\\n    <body>\\r\\n        <header>\\r\\n            <div class=\\\"header_container\\\">\\r\\n                <a href=\\\"#\\\" id=\\\"logo\\\"><img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_0___ + \"\\\" alt=\\\"Site logo\\\" /></a>\\r\\n                <div class=\\\"header_links\\\">\\r\\n                    <ul class=\\\"header_links_mainlinks_list\\\">\\r\\n                        <li class=\\\"header_link\\\"><a href=\\\"#\\\">Инвестировать</a></li>\\r\\n                        <li class=\\\"header_link\\\"><a href=\\\"#\\\">Купить безнес</a></li>\\r\\n                        <li class=\\\"header_link\\\"><a href=\\\"#\\\">Франшиза</a></li>\\r\\n                        <li class=\\\"header_link\\\"><a href=\\\"#\\\">Найти инвестора</a></li>\\r\\n                        <li class=\\\"header_link\\\"><a href=\\\"#\\\">Услуги и цены</a></li>\\r\\n                    </ul>\\r\\n                    <div class=\\\"header_vrtLine\\\"></div>\\r\\n                    <ul class=\\\"header_specLinks\\\">\\r\\n                        <li class=\\\"header_link header_specLink\\\"><a href=\\\"#\\\">Гарячая линия</a></li>\\r\\n                        <li class=\\\"header_link header_specLink\\\"><a href=\\\"#\\\">Вход</a></li>\\r\\n                        <li class=\\\"header_link header_specLink\\\"><a href=\\\"#\\\">En</a></li>\\r\\n                    </ul>\\r\\n                </div>\\r\\n            </div>\\r\\n        </header>\\r\\n    </body>\\r\\n</html>\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack:///./index.html?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/html-loader/dist/runtime/getUrl.js */ \"../node_modules/html-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./public/logo.png */ \"./public/logo.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./public/hotLine.png */ \"./public/hotLine.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ./public/enter.png */ \"./public/enter.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ./public/arrow.png */ \"./public/arrow.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ./public/main_top_girlPic.png */ \"./public/main_top_girlPic.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ./public/main_top_arrow.png */ \"./public/main_top_arrow.png\"), __webpack_require__.b);\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);\nvar ___HTML_LOADER_REPLACEMENT_1___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_1___);\nvar ___HTML_LOADER_REPLACEMENT_2___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_2___);\nvar ___HTML_LOADER_REPLACEMENT_3___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_3___);\nvar ___HTML_LOADER_REPLACEMENT_4___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_4___);\nvar ___HTML_LOADER_REPLACEMENT_5___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_5___);\nvar code = \"<!DOCTYPE html>\\r\\n<html lang=\\\"ru\\\">\\r\\n    <head>\\r\\n        <meta charset=\\\"UTF-8\\\">\\r\\n        <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=edge\\\">\\r\\n        <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\r\\n        <title>Inveboss</title>\\r\\n    </head>\\r\\n    <body>\\r\\n        <header>\\r\\n            <div class=\\\"header_container\\\">\\r\\n                <a href=\\\"#\\\" id=\\\"logo\\\"><img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_0___ + \"\\\" alt=\\\"Site logo\\\" /></a>\\r\\n                <div class=\\\"header_links\\\">\\r\\n                    <ul class=\\\"header_links_mainlinks_list\\\">\\r\\n                        <li class=\\\"header_link\\\"><a href=\\\"#\\\">Инвестировать</a></li>\\r\\n                        <li class=\\\"header_link\\\"><a href=\\\"#\\\">Купить безнес</a></li>\\r\\n                        <li class=\\\"header_link\\\"><a href=\\\"#\\\">Франшиза</a></li>\\r\\n                        <li class=\\\"header_link\\\"><a href=\\\"#\\\">Найти инвестора</a></li>\\r\\n                        <li class=\\\"header_link\\\"><a href=\\\"#\\\">Услуги и цены</a></li>\\r\\n                    </ul>\\r\\n                    <div class=\\\"header_vrtLine\\\"></div>\\r\\n                    <ul class=\\\"header_specLinks\\\">\\r\\n                        <li class=\\\"header_link header_specLink\\\"><a href=\\\"#\\\">Гарячая линия</a><img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_1___ + \"\\\" alt=\\\"Hotline Icon\\\" /></li>\\r\\n                        <li class=\\\"header_link header_specLink\\\"><a href=\\\"#\\\">Вход</a><img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_2___ + \"\\\" alt=\\\"Enter Icon\\\" /></li>\\r\\n                        <li class=\\\"header_link header_specLink\\\"><a href=\\\"#\\\">En</a><img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_3___ + \"\\\" alt=\\\"Choose language Icon\\\" /></li>\\r\\n                    </ul>\\r\\n                </div>\\r\\n            </div>\\r\\n        </header>\\r\\n        <main>\\r\\n            <div class=\\\"main_container\\\">\\r\\n                <div class=\\\"main_titleBlock\\\">\\r\\n                    <section class=\\\"main_titleBlock_text\\\">\\r\\n                        <h1>Начни <span class=\\\"aqua\\\">свой бизнес</span> с нами</h1>\\r\\n                        <p>\\r\\n                            Выберите франшизу<br>из 85 000 предложений Европы<br>Фильтр по интересам и инвестициям.\\r\\n                        </p>\\r\\n                    </section>\\r\\n                    <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_4___ + \"\\\" alt=\\\"\\\" />\\r\\n                    <img class=\\\"main_topArrow\\\" src=\\\"\" + ___HTML_LOADER_REPLACEMENT_5___ + \"\\\" alt=\\\"\\\" />\\r\\n                </div>\\r\\n            </div>\\r\\n        </main>\\r\\n    </body>\\r\\n</html>\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack:///./index.html?");
 
 /***/ }),
 
@@ -50,6 +50,36 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
+/***/ "./public/arrow.png":
+/*!**************************!*\
+  !*** ./public/arrow.png ***!
+  \**************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"public/16b5ffa701354632fe56.png\";\n\n//# sourceURL=webpack:///./public/arrow.png?");
+
+/***/ }),
+
+/***/ "./public/enter.png":
+/*!**************************!*\
+  !*** ./public/enter.png ***!
+  \**************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"public/cbbd250ec7150670a3ed.png\";\n\n//# sourceURL=webpack:///./public/enter.png?");
+
+/***/ }),
+
+/***/ "./public/hotLine.png":
+/*!****************************!*\
+  !*** ./public/hotLine.png ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"public/7aa2491841ddeb5f4561.png\";\n\n//# sourceURL=webpack:///./public/hotLine.png?");
+
+/***/ }),
+
 /***/ "./public/logo.png":
 /*!*************************!*\
   !*** ./public/logo.png ***!
@@ -57,6 +87,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"public/5c8fdd2473ab9f304d93.png\";\n\n//# sourceURL=webpack:///./public/logo.png?");
+
+/***/ }),
+
+/***/ "./public/main_top_arrow.png":
+/*!***********************************!*\
+  !*** ./public/main_top_arrow.png ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"public/baab207b222fb0dfc3d4.png\";\n\n//# sourceURL=webpack:///./public/main_top_arrow.png?");
+
+/***/ }),
+
+/***/ "./public/main_top_girlPic.png":
+/*!*************************************!*\
+  !*** ./public/main_top_girlPic.png ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"public/c0b7830553a79dd9db9e.png\";\n\n//# sourceURL=webpack:///./public/main_top_girlPic.png?");
 
 /***/ })
 

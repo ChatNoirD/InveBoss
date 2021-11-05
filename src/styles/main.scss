@@ -25,6 +25,30 @@
     width: 1280px;
     margin: 0 auto;
 }
+@mixin main-titles {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 700;
+    color: #000000;
+}
+@mixin main-bigText {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #000000;
+}
+@mixin main-regularText {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #000000;
+}
 
 body {
     margin: 0 auto;
@@ -37,16 +61,18 @@ header {
     @include center-size();
 }
 .header_links {
-    width: 80%;
+    width: 83%;
     @include flex-row();
 }
 .header_links_mainlinks_list {
-    width: 100%;
+    margin: 0;
+    width: 70%;
     @include flex-row();
     list-style-type: none;
     padding-left: 0;
 }
 .header_link {
+    padding-bottom: 2px;
     a {
         @include text-header();
     }
@@ -57,7 +83,46 @@ header {
     background-color: #67DEBC;
 }
 .header_specLinks {
+    margin: 0;
+    width: 27%;
     @include flex-row();
     list-style-type: none;
     padding-left: 0;
+}
+.header_specLink {
+    @include flex-row();
+    a {
+        margin-right: 3px;
+    }
+}
+.main_container {
+    @include center-size();
+    padding: 30px 0 50px 0;
+}
+.main_titleBlock {
+    @include flex-row();
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+}
+.main_titleBlock_text {
+    @include flex-column();
+    justify-content: flex-start;
+    height: 250px;
+    h1 {
+        @include main-titles();
+        margin-bottom: 35px;
+    }
+    p {
+        @include main-bigText();
+        line-height: 30px;
+    }
+}
+.aqua {
+    color: #67DEBC;
+}
+.main_topArrow {
+    position: absolute;
+    left: 445px;
+    bottom: -50px;
 }

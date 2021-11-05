@@ -23,7 +23,7 @@ header {
 }
 
 .header_links {
-  width: 80%;
+  width: 83%;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -31,7 +31,8 @@ header {
 }
 
 .header_links_mainlinks_list {
-  width: 100%;
+  margin: 0;
+  width: 70%;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -40,6 +41,9 @@ header {
   padding-left: 0;
 }
 
+.header_link {
+  padding-bottom: 2px;
+}
 .header_link a {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -57,10 +61,75 @@ header {
 }
 
 .header_specLinks {
+  margin: 0;
+  width: 27%;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
   list-style-type: none;
   padding-left: 0;
+}
+
+.header_specLink {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_specLink a {
+  margin-right: 3px;
+}
+
+.main_container {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 30px 0 50px 0;
+}
+
+.main_titleBlock {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.main_titleBlock_text {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-start;
+  height: 250px;
+}
+.main_titleBlock_text h1 {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 35px;
+}
+.main_titleBlock_text p {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 30px;
+}
+
+.aqua {
+  color: #67DEBC;
+}
+
+.main_topArrow {
+  position: absolute;
+  left: 445px;
+  bottom: -50px;
 }
