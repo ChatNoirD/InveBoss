@@ -250,6 +250,8 @@ header {
   color: #D6DCD8;
   border-radius: 10px;
   border: 2px solid #D6DCD8;
+  outline: 0;
+  outline-offset: 0;
 }
 
 #country {
@@ -266,6 +268,8 @@ header {
   overflow: hidden;
   background: url(../public/16b5ffa701354632fe56.png) no-repeat;
   background-position: right;
+  outline: 0;
+  outline-offset: 0;
 }
 
 #btn-top {
@@ -279,6 +283,8 @@ header {
   text-transform: uppercase;
   border: 1px solid transparent;
   border-radius: 10px;
+  outline: 0;
+  outline-offset: 0;
 }
 
 .keyword {
@@ -344,4 +350,121 @@ header {
 
 .main_advantages_info_blocks.wider {
   width: 20%;
+}
+
+.main_book_wrapper {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-items: flex-start;
+  margin-top: 100px;
+  position: relative;
+}
+.main_book_wrapper h2 {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: 700;
+  color: #000000;
+  margin: 0 0 50px 0;
+}
+
+.main_book_container {
+  width: 80%;
+  background-color: #F9F9F9;
+  padding: 0 50px;
+}
+
+.main_book_container_text-top {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #000000;
+  margin: 50px 0;
+  line-height: 70px;
+}
+
+.main_book_container_text-bottom {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #000000;
+  margin: 0 0 50px 0;
+}
+
+.main_book_form {
+  margin: 0 0 50px 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#bookName {
+  width: 200px;
+  height: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #D6DCD8;
+  border-radius: 10px;
+  border: 2px solid #D6DCD8;
+  outline: 0;
+  outline-offset: 0;
+  text-align: center;
+}
+
+#bookName::placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #D6DCD8;
+}
+
+#bookEmail {
+  width: 250px;
+  height: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #D6DCD8;
+  border-radius: 10px;
+  border: 2px solid #D6DCD8;
+  outline: 0;
+  outline-offset: 0;
+  text-align: center;
+}
+
+#bookEmail::placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #D6DCD8;
+}
+
+#btnBookForm {
+  width: 450px;
+  height: 50px;
+  background-color: #67DEBC;
+  border-radius: 10px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.main_book_mob {
+  position: absolute;
+  right: 65px;
 }

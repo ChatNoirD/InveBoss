@@ -225,6 +225,8 @@ header {
     color: #D6DCD8;
     border-radius: 10px;
     border: 2px solid #D6DCD8;
+    outline: 0;
+    outline-offset: 0;
 }
 #country {
     width: 396px;
@@ -240,6 +242,8 @@ header {
     overflow: hidden;
     background: url(../public/countryarrow.png) no-repeat;
     background-position: right;
+    outline: 0;
+    outline-offset: 0;
 }
 #btn-top {
     width: 200px;
@@ -252,6 +256,8 @@ header {
     text-transform: uppercase;
     border: 1px solid transparent;
     border-radius: 10px;
+    outline: 0;
+    outline-offset: 0;
 }
 .keyword {
     width: 42%;
@@ -297,4 +303,88 @@ header {
 }
 .main_advantages_info_blocks.wider {
     width: 20%;
+}
+.main_book_wrapper {
+    @include center-size();
+    @include flex-column();
+    align-items: flex-start;
+    margin-top: 100px;
+    position: relative;
+    h2 {
+        @include main-titles();
+        margin: 0 0 50px 0;
+    }
+}
+.main_book_container {
+    width: 80%;
+    background-color: #F9F9F9;
+    padding: 0 50px;
+}
+.main_book_container_text-top {
+    @include main-bigText();
+    margin: 50px 0;
+    line-height: 70px;
+}
+.main_book_container_text-bottom {
+    @include main-bigText();
+    margin: 0 0 50px 0;
+}
+.main_book_form {
+    margin: 0 0 50px 0;
+    @include flex-row();
+}
+#bookName {
+    width: 200px;
+    height: 50px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #D6DCD8;
+    border-radius: 10px;
+    border: 2px solid #D6DCD8;
+    outline: 0;
+    outline-offset: 0;
+    text-align: center;
+}
+#bookName::placeholder {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #D6DCD8;
+}
+#bookEmail {
+    width: 250px;
+    height: 50px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #D6DCD8;
+    border-radius: 10px;
+    border: 2px solid #D6DCD8;
+    outline: 0;
+    outline-offset: 0;
+    text-align: center;
+}
+#bookEmail::placeholder {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #D6DCD8;
+}
+#btnBookForm {
+    width: 450px;
+    height: 50px;
+    background-color: #67DEBC;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.main_book_mob {
+    position: absolute;
+    right: 65px;
 }
