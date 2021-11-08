@@ -161,7 +161,7 @@ header {
 .main_inputTop_container {
     @include flex-column();
     @include center-size();
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .main_inputTop_links {
     @include flex-row();
@@ -169,6 +169,7 @@ header {
     padding-left: 0;
     list-style-type: none;
     width: 100%;
+    margin: 0;
 }
 .main_inputTop_link {
     @include main-links-nonActive();
@@ -180,10 +181,13 @@ header {
     padding: 30px 0 10px 0;
     @include flex-column();
     width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: #67DEBC -1px 1px 1px;
 }
 .main_inputTop_formTitles {
     @include flex-row();
-    width: 80%;
+    width: 90%;
     justify-content: flex-start;
     justify-self: flex-start;
     P {
@@ -196,6 +200,101 @@ header {
     }
 }
 .main_inputTop_form {
+    margin: 20px auto;
     @include flex-row();
-    width: 80%;
+    width: 90%;
+}
+.main_inputTop_form_link {
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    margin: 0;
+    color: #000000;
+    text-decoration-color: #000000;
+    text-align: right;
+
+}
+#keyword {
+    width: 396px;
+    height: 50px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #D6DCD8;
+    border-radius: 10px;
+    border: 2px solid #D6DCD8;
+}
+#country {
+    width: 396px;
+    height: 56px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 49px;
+    color: #D6DCD8;
+    border-radius: 10px;
+    border: 2px solid #D6DCD8;
+    appearance: none;
+    overflow: hidden;
+    background: url(../public/countryarrow.png) no-repeat;
+    background-position: right;
+}
+#btn-top {
+    width: 200px;
+    background-color: #67DEBC;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.keyword {
+    width: 42%;
+}
+.main_advantages_container {
+    height: 300px;
+    @include center-size();
+    @include flex-column();
+    margin-top: 100px;
+    align-items: flex-start;
+    h2 {
+        @include main-titles();
+        margin: 0;
+    }
+}
+.main_advantages_info {
+    @include flex-row();
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    align-items: flex-start;
+}
+.main_advantages_info_blocks {
+    @include flex-column();
+    width: 15%;
+    h3 {
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 54px;
+        color: #67DEBC;
+        margin-bottom: 30px;
+    }
+    p {
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+    }
+}
+.main_advantages_info_blocks.wider {
+    width: 20%;
 }
