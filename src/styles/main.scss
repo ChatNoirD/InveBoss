@@ -268,6 +268,7 @@ header {
     @include flex-column();
     margin-top: 100px;
     align-items: flex-start;
+    
     h2 {
         @include main-titles();
         margin: 0;
@@ -305,7 +306,8 @@ header {
     width: 20%;
 }
 .main_book_wrapper {
-    @include center-size();
+    width: 1118px;
+    margin: 0 auto;
     @include flex-column();
     align-items: flex-start;
     margin-top: 100px;
@@ -316,9 +318,9 @@ header {
     }
 }
 .main_book_container {
-    width: 80%;
     background-color: #F9F9F9;
     padding: 0 50px;
+    box-shadow: #67DEBC -1px 1px 1px;
 }
 .main_book_container_text-top {
     @include main-bigText();
@@ -386,5 +388,53 @@ header {
 }
 .main_book_mob {
     position: absolute;
-    right: 65px;
+    top: 0;
+    right: -60px;
+}
+.main_investProd_wrapper {
+    @include center-size();
+    @include flex-column();
+    margin-top: 100px;
+}
+.main_investProd_container {
+    width: 100%;
+    @include flex-column();
+    padding: 30px 0;
+    box-shadow: #67DEBC -1px 1px 1px;
+}
+.main_investProd_info {
+    width: 100%;
+    @include flex-row();
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+.main_investProd_info_blocks {
+    width: 20%;
+    @include flex-column();
+    h3 {
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #181C2F;
+        margin-bottom: 25px;
+        padding-bottom: 4px;
+    }
+    p {
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+    }
+}
+.main_investProd-btn {
+    width: 353px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 49px;
+    color: #181C2F;
+    border: 2px solid #D6DCD8;
 }
