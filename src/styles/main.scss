@@ -484,6 +484,7 @@ header {
     margin-top: 100px;
     h2 {
         @include main-titles();
+        margin-left: 40px;
     }
 }
 .main_popular_imgLinks {
@@ -519,6 +520,57 @@ header {
     background-image: url(../public/Group\ 2.png);
 }
 .main_popular_link {
+    @include flex-row();
+    width: 150px;
+    a {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        color: #181C2F;
+    }
+}
+.main_franchizes {
+    @include center-size();
+    margin-top: 100px;
+    h2 {
+        @include main-titles();
+        margin-left: 40px;
+    }
+}
+.main_franchizes_imgLinks {
+    @include flex-row();
+    margin: 50px 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+.main_franchizes_imgLink {
+    width: 290px;
+    height: 180px;
+    position: relative;
+    a {
+        position: absolute;
+        top: 20px;
+        left: 15px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-decoration: none;
+    }
+}
+.main_franchizes_imgLink:nth-child(even) {
+    background-image: url(../public/статья\ 2.png);
+}
+.main_franchizes_imgLink:nth-child(odd) {
+    background-image: url(../public/статья\ 3.png);
+}
+.main_franchizes_imgLink:first-child {
+    background-image: url(../public/статья\ 1.png);
+}.main_franchizes_imgLink:last-child {
+    background-image: url(../public/Group\ 2.png);
+}
+.main_franchizes_link {
     @include flex-row();
     width: 150px;
     a {
