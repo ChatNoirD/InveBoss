@@ -581,3 +581,41 @@ header {
         color: #181C2F;
     }
 }
+.main_slider_wrapper {
+    @include center-size();
+    margin-top: 100px;
+    img {
+        width: 100%;
+    }
+}
+.main_seoart_wrapper {
+    @include center-size();
+    margin: 100px auto;
+    h2 {
+        @include main-titles();
+        margin-left: 40px;
+    }
+}
+.main_seoart_textSect {
+    width: 100%;
+    margin-top: 50px 0 100px 0;
+    padding-right: 50px;
+    @include flex-column();
+    align-items: flex-start;
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #181C2F;
+    }
+}
+.main_seoart_textSect_list {
+    li {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #181C2F;
+    }
+}
