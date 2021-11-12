@@ -125,7 +125,6 @@ header {
     @include flex-row();
     a {
         margin-right: 3px;
-        line-height: 50px;
     }
 }
 .main_container {
@@ -808,9 +807,13 @@ header {
 }
 .specLink-lang {
     position: relative;
+    line-height: 50px;
 }
 .specLink-lang-min {
     display: none;
+}
+.active {
+    @include flex-column();
     position: absolute;
     padding: 10px;
     background-color: #F5F5F2;
@@ -832,15 +835,13 @@ header {
         text-transform: none;
     }
 }
-.specLink-lang:hover {
-    .specLink-lang-min {
-        @include flex-column();
-        align-items: flex-start;
-    }
+.specLink-lang-min_item:hover {
+    font-weight: 600;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #67DEBC;
 }
-.specLink-lang-min:hover {
-    .specLink-lang-min {
-        @include flex-column();
-        align-items: flex-start;
+.specLink-lang-min_item:active {
+    a {
+        font-weight: 700;
     }
 }
