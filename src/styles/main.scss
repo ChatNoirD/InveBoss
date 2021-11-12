@@ -125,6 +125,7 @@ header {
     @include flex-row();
     a {
         margin-right: 3px;
+        line-height: 50px;
     }
 }
 .main_container {
@@ -432,11 +433,6 @@ header {
 }
 .main_investProd-btn {
     width: 353px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 49px;
-    color: #181C2F;
     border: 2px solid #D6DCD8;
     border-radius: 10px;
     align-self: flex-start;
@@ -444,6 +440,15 @@ header {
     padding-left: 10px;
     text-decoration: none;
     position: relative;
+    background-color: transparent;
+    a {        
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 49px;
+        color: #181C2F;
+        text-decoration: none;
+    }
     img {
         position: absolute;
         top: 17px;
@@ -786,5 +791,56 @@ header {
     a {
         font-weight: 700;
         color: #67DEBC;
+    }
+}
+.main_investProd-btn:hover {
+    a {
+        font-weight: 700;
+        padding-bottom: 2px;
+        border-bottom: 1px solid #67DEBC;
+    }
+}
+.main_investProd-btn:active {
+    a {
+        font-weight: 700;
+        color: #67DEBC;
+    }
+}
+.specLink-lang {
+    position: relative;
+}
+.specLink-lang-min {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    background-color: #F5F5F2;
+    list-style-type: none;
+    height: 110px;
+    width: 134px;
+    border-radius: 10px;
+    top: 45px;
+    right: -10px;
+    margin: 0 auto;
+}
+.specLink-lang-min_item {
+    @include flex-row();
+    a {
+        margin-left: 5px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        text-transform: none;
+    }
+}
+.specLink-lang:hover {
+    .specLink-lang-min {
+        @include flex-column();
+        align-items: flex-start;
+    }
+}
+.specLink-lang-min:hover {
+    .specLink-lang-min {
+        @include flex-column();
+        align-items: flex-start;
     }
 }
