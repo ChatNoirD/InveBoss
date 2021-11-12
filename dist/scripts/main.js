@@ -36,7 +36,7 @@ eval("var $lang = document.querySelector('.specLink-lang');\nvar $minLang = docu
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/main.scss */ \"./styles/main.scss\");\n/* harmony import */ var _styles_footer_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/footer.scss */ \"./styles/footer.scss\");\n/* harmony import */ var _index_html__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../index.html */ \"./index.html\");\n/* harmony import */ var _footer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer.js */ \"./scripts/footer.js\");\n/* harmony import */ var _footer_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_footer_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _search_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./search.js */ \"./scripts/search.js\");\n/* harmony import */ var _search_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_search_js__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _styles_searchclr_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/searchclr.scss */ \"./styles/searchclr.scss\");\n/* harmony import */ var _lang_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./lang.js */ \"./scripts/lang.js\");\n/* harmony import */ var _lang_js__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_lang_js__WEBPACK_IMPORTED_MODULE_6__);\n/* harmony import */ var _tabs_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./tabs.js */ \"./scripts/tabs.js\");\n/* harmony import */ var _tabs_js__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_tabs_js__WEBPACK_IMPORTED_MODULE_7__);\n\n\n\n\n\n\n\n\n\n//# sourceURL=webpack:///./scripts/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/main.scss */ \"./styles/main.scss\");\n/* harmony import */ var _styles_footer_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/footer.scss */ \"./styles/footer.scss\");\n/* harmony import */ var _index_html__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../index.html */ \"./index.html\");\n/* harmony import */ var _footer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer.js */ \"./scripts/footer.js\");\n/* harmony import */ var _footer_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_footer_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _search_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./search.js */ \"./scripts/search.js\");\n/* harmony import */ var _search_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_search_js__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _styles_searchclr_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/searchclr.scss */ \"./styles/searchclr.scss\");\n/* harmony import */ var _lang_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./lang.js */ \"./scripts/lang.js\");\n/* harmony import */ var _lang_js__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_lang_js__WEBPACK_IMPORTED_MODULE_6__);\n\n\n\n\n\n\n\n\n//# sourceURL=webpack:///./scripts/main.js?");
 
 /***/ }),
 
@@ -47,16 +47,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /***/ (() => {
 
 eval("var $srchLay = document.querySelector('.header_link-search');\nvar $srchField = document.querySelector('.header_searchField');\nvar $mainBlock = document.querySelector('main');\n$srchLay.addEventListener('click', function () {\n  $srchField.style.display = 'block';\n});\n$srchLay.removeEventListener('click', function () {\n  $srchField.style.display = 'block';\n});\ndocument.addEventListener('scroll', function () {\n  $srchField.style.display = 'none';\n});\ndocument.removeEventListener('scroll', function () {\n  $srchField.style.display = 'none';\n});\n$mainBlock.addEventListener('click', function () {\n  $srchField.style.display = 'none';\n});\n$mainBlock.removeEventListener('click', function () {\n  $srchField.style.display = 'none';\n});\ndocument.addEventListener('keyup', function (event) {\n  if (event.keyCode == 13) {\n    $srchField.style.display = 'none';\n  }\n});\ndocument.removeEventListener('keyup', function (event) {\n  if (event.keyCode == 13) {\n    $srchField.style.display = 'none';\n  }\n});\n\n//# sourceURL=webpack:///./scripts/search.js?");
-
-/***/ }),
-
-/***/ "./scripts/tabs.js":
-/*!*************************!*\
-  !*** ./scripts/tabs.js ***!
-  \*************************/
-/***/ (() => {
-
-eval("\n\n//# sourceURL=webpack:///./scripts/tabs.js?");
 
 /***/ }),
 
