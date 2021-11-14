@@ -1,0 +1,191 @@
+@mixin flex-row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 1379px) {
+    .header_container {
+        width: 90%;
+    }
+    .header_links {
+        width: 100%;
+        display: flex;
+        flex-flow: column-reverse nowrap;
+        justify-content: space-between;
+        align-items: center;
+        height: 150px;
+        margin-top: 30px;
+    }
+    .header_vrtLine {
+        display: none;
+    }
+    .header_horLine {
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: #C4C4C4;
+    }
+    .header_link-search {
+        display: none;
+    }
+    .logo_header {
+        position: absolute;
+        top: 0;
+    }
+    .header_specLinks {
+        align-self: flex-end;
+        width: 90%;
+        @include flex-row();
+        justify-content: flex-end;
+        li {
+            margin-left: 10px;
+        }
+    }
+    .header_links_mainlinks_list {
+        @include flex-row();
+        width: 100%;
+    }
+    .main_container {
+        width: 90%;
+    }
+    .main_titleBlock {
+        width: 85%;
+    }
+    .main_topArrow {
+        bottom: 0;
+        right: 0;
+        top: 330px;
+        left: 250px;
+    }
+    .main_inputTop_container {
+        width: 90%;
+    }
+    .main_inputTop_links {
+        width: 100%;
+    }
+    .main_inputTop_link {
+        width: 24%;
+    }
+    #keyword {
+        width: 30%;
+    }
+    #country {
+        width: 30%;
+    }
+    .main_advantages_container {
+        width: 90%;
+    }
+    .main_advantages_info {
+        width: 100%;
+        li {
+            width: 24%;
+        }
+    }
+    .main_book_wrapper {
+        width: 90%;
+    }
+    .main_book_form {
+        align-content: center;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    #bookName {
+        width: 40%;
+        margin: 0 20px 50px 0;
+    }
+    #bookEmail {
+        width: 40%;
+        margin: 0 0 50px 20px;
+    }
+    .main_investProd_title-1024 {
+        display: block;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 45px;
+        align-self: flex-start;
+    }
+    .main_investProd_wrapper {
+        width: 90%;
+    }
+    .main_inputTop_links {
+        width: 100%;
+        li {
+            width: 24%;
+        }
+    }
+    .main_investProd_container {
+        width: 100%;
+    }
+    .main_investProd_info {
+        width: 100%;
+        li {
+            width: 24%;
+        }
+    }
+    .main_investSize_wrapper {
+        width: 90%;
+    }
+    .main_investSize_list {
+        width: 100%;
+        flex-flow: row wrap;
+        li {
+            width: 30%;
+            margin-bottom: 50px;
+        }
+    }
+    .main_popular {
+        width: 90%;
+    }
+    .main_popular_imgLinks {
+        width: 100%;
+        li {
+            width: 30%;
+        }
+    }
+    .desk {
+        display: none;
+    }
+    .pad {
+        display: block;
+    }
+    .main_popular_link {
+        width: 100%;
+        .pad {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 33px;
+            color: #181C2F;
+            width: 100%;
+        }
+    }
+    .main_franchizes {
+        width: 90%;
+    }
+    .main_franchizes_imgLinks {
+        width: 100%;
+        li {
+            width: 30%;
+        }
+    }
+    .main_franchizes_link {
+        width: 100%;
+        .pad {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 33px;
+            color: #181C2F;
+            width: 100%;
+        }
+    }
+    .main_slider_wrapper {
+        width: 90%;
+    }
+    .main_seoart_wrapper {
+        width: 90%;
+    }
+}

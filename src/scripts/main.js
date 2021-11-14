@@ -5,3 +5,5 @@ import './footer.js';
 import './search.js';
 import '../styles/searchclr.scss';
 import './lang.js';
+import '../styles/footer_media.scss';
+import '../styles/1024.scss';
